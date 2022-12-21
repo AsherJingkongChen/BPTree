@@ -8,6 +8,7 @@
 #include <cstdio>
 #include <cerrno>
 #include <string>
+#include <memory> // patch
 
 static const int TEST_ENDIAN_VAL = 1;
 static const bool IS_MACHINE_LITTLE_ENDIAN = *((char *) &TEST_ENDIAN_VAL) == 1;

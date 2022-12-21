@@ -8,6 +8,7 @@
 #include <cstdlib>
 #include <algorithm>
 #include "Comp.h"
+#include <cstring> // patch
 
 
 const static unsigned int MIN_CAP = 1;

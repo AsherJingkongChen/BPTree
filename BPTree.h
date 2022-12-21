@@ -10,6 +10,8 @@
 #include "Comp.h"
 #include "List.h"
 #include "Utils.h"
+#include <cstring> // patch
+#include <cassert> // patch
 
 const unsigned int MIN_ORDER = 2;
 

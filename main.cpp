@@ -5,9 +5,9 @@
 #include "Utils.h"
 
 #define TEST_LIST 0
-#define TEST_FUNC 0
-#define TEST_SPEED 0
-#define TEST_MEM 0
+#define TEST_FUNC 1
+#define TEST_SPEED 1
+#define TEST_MEM 1
 #define TEST_SERIAL 1
 
 using namespace std;

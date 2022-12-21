@@ -512,7 +512,3 @@ void runBlock(Function func, const char *msg) {
     clock_t end = clock();
     printf("%s use: %f ms\n", msg, 1000.0 * (end - start) / CLOCKS_PER_SEC);
 }
-
-int compareA(const A &a1, const A &a2) {
-    return a1.a - a2.a;
-}
